@@ -1,0 +1,21 @@
+.star {
+  object-fit: scale-down;
+  position: relative;
+  display: inline-block;
+}
+
+img {
+  width: 50px;
+}
+
+.star .top {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.star:hover .top {
+  display: inline;
+}
